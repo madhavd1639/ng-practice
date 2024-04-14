@@ -29,6 +29,7 @@ jobs:
 
       - name: Unit testing
         run: npm run test -- --browsers ChromeHeadless
+        continue-on-error: false
         
       - name: Create Build
         run: npm run build
