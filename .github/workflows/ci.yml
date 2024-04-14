@@ -30,5 +30,3 @@ jobs:
       - name: Job status
         id: check-job
         run: echo "Job Status::${{ job.status }}"
-
-      
