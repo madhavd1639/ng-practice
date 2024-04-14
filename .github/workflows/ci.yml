@@ -27,8 +27,8 @@ jobs:
       - name: Create Build
         run: npm run build
 
-      - name: Check job status
+      - name: Job status
         id: check-job
-        run: echo "Job Status::${{ job.status }}"  # Assuming the job succeeded, replace with actual logic
+        run: echo "Job Status::${{ job.status }}"
 
       
