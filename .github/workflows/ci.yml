@@ -28,7 +28,7 @@ jobs:
         run: npm run lint
 
       - name: Unit testing
-        run: ng test --browsers ChromeHeadless
+        run: npm run test -- --browsers ChromeHeadless
         
       - name: Create Build
         run: npm run build
